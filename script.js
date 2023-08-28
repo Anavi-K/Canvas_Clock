@@ -39,7 +39,7 @@ function drawNumber(context,radius){
         context.rotate(ang)
         context.translate(0,-radius*0.85)
         context.rotate(-ang)
-        context.fillText(num,toString(),0,0)
+        context.fillText(num.toString(),0,0)
         context.rotate(ang)
         context.translate(0,radius*0.85)
         context.rotate(-ang)
